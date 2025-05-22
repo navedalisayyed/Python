@@ -38,7 +38,7 @@ fo.close()
 for each in range(3):
     print(data[each])
 '''
-
+''''
 #copy file into another file using python
 
 sfile="with loop.txt"
@@ -51,3 +51,13 @@ sfo.close()
 dfo=open(dfile,"w")
 dfo.write(content)
 dfo.close()
+'''
+#how set cursor to at the start
+
+f=open("with loop.txt",'r')
+print(f.read())
+print("----------")
+f.seek(0)
+print(f.read())
+
+ 
